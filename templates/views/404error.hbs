@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    {{>header}}
+    <!-- main header -->
+    <div class="main_header">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-11 col-12 main_header_left  align-items-center">
+                        <figure>
+                            <img src="image/404.png" alt="" class="img-fluid">
+                        </figure>
+                        <p>Welcome to weather app</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {{>footer}}
+</body>
+</html>
